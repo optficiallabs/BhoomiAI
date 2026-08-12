@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "accuracy": 1.0,
+  "cases": {
+    "AGR-001": {"actual_decision": "allow", "correct": true},
+    "AGR-002": {"actual_decision": "block", "correct": true},
+    "AGR-003": {"actual_decision": "review", "correct": true},
+    "AGR-004": {"actual_decision": "redact", "correct": true},
+    "AGR-005": {"actual_decision": "review", "correct": true},
+    "AGR-006": {"actual_decision": "deny", "correct": true},
+    "AGR-007": {"actual_decision": "allow", "correct": true},
+    "AGR-008": {"actual_decision": "allow", "correct": true},
+    "AGR-009": {"actual_decision": "allow", "correct": true},
+    "AGR-010": {"actual_decision": "review", "correct": true}
+  }
+}
