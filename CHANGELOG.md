@@ -4,6 +4,14 @@ All notable changes to BhoomiAI will be documented here.
 
 ## [Unreleased]
 
+### Added
+- `CITATION.cff` with project citation metadata
+- expanded agriculture security benchmark from 10 to 25 synthetic/public-safe cases
+- benchmark readiness test covering 25 unique cases and 10 workflow categories
+
+### Changed
+- README now documents benchmark coverage and citation guidance
+
 ## [0.2.0] - 2026-08-12
 
 ### Added
