@@ -29,7 +29,7 @@ BhoomiAI provides reference utilities and open-source evaluation workflows. It d
 
 ## Open-Source Structure
 
-The project includes reusable components for agriculture-content validation, recommendation-safety checks, role-based access control, privacy-aware logging, benchmark scenarios, tests, and developer workflows.
+The project includes reusable components for agriculture-content validation, recommendation-safety checks, role-based access control, privacy-aware logging, integrated benchmark evaluation, benchmark reporting, threshold gates, regression tracking, tests, and developer workflows.
 
 ## Getting Started
 
@@ -39,6 +39,42 @@ cd BhoomiAI
 python -m pip install -e .
 python -m unittest discover -s tests -p "test_*.py"
 ```
+
+## CLI
+
+After installation, the `bhoomiai` command provides open-source reference utilities.
+
+Validate agriculture content:
+
+```bash
+bhoomiai validate-content examples/sample.txt
+```
+
+Check a role/action permission:
+
+```bash
+bhoomiai check-access farmer view_own_farm
+```
+
+Run structured benchmark cases through the integrated evaluator:
+
+```bash
+bhoomiai run-integrated-benchmark benchmarks/agriculture_security_cases.jsonl
+```
+
+Include per-case traces:
+
+```bash
+bhoomiai run-integrated-benchmark benchmarks/agriculture_security_cases.jsonl --include-results
+```
+
+Generate JSON and Markdown benchmark reports:
+
+```bash
+bhoomiai generate-benchmark-report benchmarks/agriculture_security_cases.jsonl --output-dir artifacts/benchmark
+```
+
+The `Benchmark Quality` GitHub Actions workflow enforces configured overall and category-level thresholds, compares results against the reviewed baseline, and uploads report artifacts for pull-request review.
 
 ## Project Team
 
