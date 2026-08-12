@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use BhoomiAI in research, software, benchmarks, or technical evaluation, please cite this repository."
+title: "BhoomiAI: Open Agriculture Technology for Secure Farm Intelligence and Reproducible Evaluation Workflows"
+type: software
+version: 0.2.0
+date-released: 2026-08-12
+license: Apache-2.0
+repository-code: "https://github.com/optficiallabs/BhoomiAI"
+url: "https://optficial.ai/"
+authors:
+  - family-names: "Srinivasulu"
+    given-names: "Asadi"
+    affiliation: "Optficial Labs Pvt Ltd."
+  - family-names: "Barua"
+    given-names: "Tarkeswar"
+    affiliation: "Optficial Labs Pvt Ltd."
+  - family-names: "G"
+    given-names: "Pradeep"
+    affiliation: "Optficial Labs Pvt Ltd."
+  - family-names: "Nagarjuna"
+    given-names: "Goddindla"
+    affiliation: "Optficial Labs Pvt Ltd."
+  - family-names: "Adike"
+    given-names: "Harini Priyanshu"
+    affiliation: "Optficial Labs Pvt Ltd."
+  - family-names: "Sharmila"
+    given-names: "Paila"
+    affiliation: "Optficial Labs Pvt Ltd."
+  - family-names: "Khan"
+    given-names: "Mullaa Sufiyan"
+    affiliation: "Optficial Labs Pvt Ltd."
