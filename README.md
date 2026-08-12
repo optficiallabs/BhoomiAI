@@ -40,6 +40,18 @@ python -m pip install -e .
 python -m unittest discover -s tests -p "test_*.py"
 ```
 
+## Project Team
+
+- **Dr. Asadi Srinivasulu — Chief Advisor:** research and technical direction, architecture, evaluation design, validation, and strategic guidance.
+- **Dr. Tarkeswar Barua — R&D Head:** research planning, technical supervision, security testing, benchmark validation, and quality assurance.
+- **Dr. Pradeep G — Project Coordinator:** project execution, benchmark/scenario coordination, testing, documentation, reporting, release activities, and milestones.
+- **Goddindla Nagarjuna — Development and Testing Support:** implementation, test development, debugging, and component validation.
+- **Harini Priyanshu Adike — Testing, Documentation and Validation Support:** functional testing, benchmark verification, documentation, and result validation.
+- **Paila Sharmila — Research and Domain Workflow Support:** agriculture workflow analysis, use-case preparation, research support, and domain validation.
+- **Mullaa Sufiyan Khan — Integration, Security Testing and Reproducibility Support:** integration, defensive security testing, reproducibility checks, and benchmark execution.
+
+See `TEAM.md` for full roles and responsibilities.
+
 ## Contributing
 
 Please review `CONTRIBUTING.md`, `SECURITY.md`, and `CODE_OF_CONDUCT.md` before contributing.
