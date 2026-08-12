@@ -80,6 +80,8 @@ The `Benchmark Quality` GitHub Actions workflow enforces configured overall and 
 
 The public agriculture security benchmark currently contains 25 synthetic, public-safe cases covering normal guidance, content security, recommendation safety, privacy, market integrity, access control, human review, weather integrity, field verification, and multi-step workflow risk. Benchmark changes are evaluated through the integrated evaluator and existing quality/regression gates before merge.
 
+For evaluation design and interpretation, see `docs/BENCHMARK_METHODOLOGY.md`. For the repository's defensive assumptions, protected assets, trust boundaries, and principal risks, see `docs/THREAT_MODEL.md`.
+
 ## Project Team
 
 - **Dr. Asadi Srinivasulu — Chief Advisor:** research and technical direction, architecture, evaluation design, validation, and strategic guidance.
@@ -98,7 +100,7 @@ If you use BhoomiAI, its benchmark, or its evaluation utilities in research or t
 
 ## Contributing
 
-Please review `CONTRIBUTING.md`, `SECURITY.md`, and `CODE_OF_CONDUCT.md` before contributing.
+Please review `CONTRIBUTING.md`, `SECURITY.md`, and `CODE_OF_CONDUCT.md` before contributing. Pull requests use a repository template, and benchmark proposals can be submitted through the dedicated issue template.
 
 ## Licence
 

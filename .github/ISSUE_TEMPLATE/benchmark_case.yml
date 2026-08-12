@@ -1,0 +1,48 @@
+name: Benchmark case proposal
+description: Propose a synthetic/public-safe agriculture security benchmark case
+title: "[Benchmark]: "
+labels: ["benchmark"]
+body:
+  - type: markdown
+    attributes:
+      value: "Use only synthetic, independently created, properly licensed, or otherwise public-safe material."
+  - type: input
+    id: category
+    attributes:
+      label: Proposed category
+      placeholder: recommendation_safety, privacy, access_control, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: Describe the agriculture workflow and risk being tested.
+    validations:
+      required: true
+  - type: dropdown
+    id: expected
+    attributes:
+      label: Expected decision
+      options:
+        - allow
+        - deny
+        - block
+        - review
+        - redact
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Explain why this decision is appropriate and what failure mode the case covers.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Data-safety confirmation
+      options:
+        - label: This proposal contains no credentials, identifiable farmer data, private farm coordinates, confidential FPO records, restricted examination-like material, or proprietary third-party data without permission.
+          required: true

@@ -1,0 +1,50 @@
+name: Bug report
+description: Report a reproducible problem in BhoomiAI
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for helping improve BhoomiAI. Do not include credentials, identifiable farmer data, private farm coordinates, or confidential records."
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide minimal, public-safe reproduction steps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: BhoomiAI version or commit
+      placeholder: v0.2.0 or commit SHA
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - CLI
+        - Content security
+        - Recommendation safety
+        - Access control
+        - Privacy redaction
+        - Benchmarking
+        - Reporting / thresholds / regression
+        - CI / packaging
+        - Documentation
+        - Other
+    validations:
+      required: true
