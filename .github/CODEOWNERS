@@ -1,0 +1,13 @@
+# Default repository ownership
+* @optficiallabs
+
+# Security and CI
+/.github/ @optficiallabs
+/SECURITY.md @optficiallabs
+
+# Benchmarks and evaluation
+/benchmarks/ @optficiallabs
+/config/ @optficiallabs
+/scripts/ @optficiallabs
+/src/ @optficiallabs
+/tests/ @optficiallabs
