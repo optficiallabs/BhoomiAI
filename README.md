@@ -76,6 +76,10 @@ bhoomiai generate-benchmark-report benchmarks/agriculture_security_cases.jsonl -
 
 The `Benchmark Quality` GitHub Actions workflow enforces configured overall and category-level thresholds, compares results against the reviewed baseline, and uploads report artifacts for pull-request review.
 
+## Benchmark Coverage
+
+The public agriculture security benchmark currently contains 25 synthetic, public-safe cases covering normal guidance, content security, recommendation safety, privacy, market integrity, access control, human review, weather integrity, field verification, and multi-step workflow risk. Benchmark changes are evaluated through the integrated evaluator and existing quality/regression gates before merge.
+
 ## Project Team
 
 - **Dr. Asadi Srinivasulu — Chief Advisor:** research and technical direction, architecture, evaluation design, validation, and strategic guidance.
@@ -87,6 +91,10 @@ The `Benchmark Quality` GitHub Actions workflow enforces configured overall and 
 - **Mullaa Sufiyan Khan — Integration, Security Testing and Reproducibility Support:** integration, defensive security testing, reproducibility checks, and benchmark execution.
 
 See `TEAM.md` for full roles and responsibilities.
+
+## Citation
+
+If you use BhoomiAI, its benchmark, or its evaluation utilities in research or technical work, please cite the project using the metadata in `CITATION.cff`.
 
 ## Contributing
 
